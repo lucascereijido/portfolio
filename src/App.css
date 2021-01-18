@@ -1,5 +1,17 @@
+
+
+@import url(//db.onlinewebfonts.com/c/123c7e674188c97798dd39cd41ff2d85?family=Brown+Regular);
+
+@font-face {font-family: "Brown Regular"; src: url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.eot"); src: url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.woff") format("woff"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/123c7e674188c97798dd39cd41ff2d85.svg#Brown Regular") format("svg"); }
+
 .App{
-font-family: sans-serif
+font-family: sans-serif; 
+}
+
+
+
+#thesis {
+    color: #ee4724;
 }
 
 a {
@@ -15,8 +27,47 @@ a {
     font-size: 20px;
 }
 
+.show-caption{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
 .show-column{
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+}
+
+.quarantony{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.mobile-show-column{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-show-column img{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+.mobile-show-column iframe{
+    align-self: center;
+    width: 420px;
+    height: 315px;
+}
+
+.quaran-caption{
+    width: 420px;
+    height: auto;
+    padding: 5px;
 }
 
 .show-column img{
@@ -64,30 +115,31 @@ a {
 
 }
 
+
+
 .column{  
-    padding-top: 40px;
-   display: flex;
-   flex-direction: column; 
-   max-width: 47%;
+   display: none; 
 }
 
-
-.column img{
-    width: 100%;
+.mobile-column{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
     height: auto;
-    background-color: gray;
-    opacity: .5;
-}
-
-.column img:hover{
-    opacity: 1;
-    cursor: pointer;
 }
 
 .image-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.image-wrapper img{
+    width: 100%;
+    height: auto;
+    opacity: .5;
+}
+
+.image-wrapper img:hover{
+    opacity: 1;
 }
 
 .footer{
@@ -108,11 +160,60 @@ a {
 .menu{
     cursor: pointer;
 }
+.about a {
+    color: #ee4724;
+}
 }
 
 
 @media only screen and (min-width: 761px) {
 
+.mobile-column{
+    display: none;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content { 
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: #ee4724; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ee4724; color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+.mobile-show-column{
+    height: 0px; 
+    width: 0px;
+    overflow: hidden;
+}
 
 .show-column{
     display: flex;
@@ -121,6 +222,10 @@ a {
     overflow: hidden;
     margin-top: 2%;
 }
+
+
+
+
 
 .quarantony{
     display: flex;
@@ -134,7 +239,7 @@ a {
 
 .show-column img{
     width: 48%; 
-    height: auto; 
+    height: 48%; 
 }
 
  .computer-menu{
@@ -148,12 +253,11 @@ a {
  }
 
  .computer-links a {
-     color: gray; 
+   
      font-size: 16px;
  }
 
  .computer-links a:hover{
-     color: black;
      cursor: pointer;
  }
  .hidden-menu{
@@ -201,7 +305,7 @@ a {
 .column img{
     
     width: 100%;
-    height: auto;
+    height: 80%;
     background-color: white;
     opacity: .5;
 }

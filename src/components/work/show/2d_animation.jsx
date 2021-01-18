@@ -24,11 +24,22 @@ export default function Animation(props){
         </div>
            
         <div className='show-column'>
-            
-            
             <img alt="hello" src={yek}></img>
-               <img alt="hello" src={walkyellow}></img>
+            <img alt="hello" src={walkyellow}></img>
         </div>
+           <div className='mobile-show-column'>
+               
+                   <iframe  src="https://www.youtube.com/watch?v=IVxoitrsATg&ab_channel=lucascereijido">
+                   </iframe>
+                   <div className="quaran-caption">QUARAN-TONY details a dull and relatable day in the life of Tony, spirit animal of ~quarantine~</div>
+            
+               <img alt="hello" src={biking}></img>
+               <img alt="hello" src={cubehead}></img>
+               <img alt="hello" src={liiz}></img>
+               <img alt="hello" src={walkers}></img>
+               <img alt="hello" src={yek}></img>
+               <img alt="hello" src={walkyellow}></img>
+           </div>
     </div>)
 
 }

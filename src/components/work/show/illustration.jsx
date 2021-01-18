@@ -15,7 +15,11 @@ export default function illustration(props) {
             <div className="show-column">
                 <img alt="hello" src={lmao}></img>
             </div>
-          
+            <div className="mobile-show-column">
+                <img alt="hello" src={face}></img>
+                <img alt="hello" src={fruit}></img>
+                <img alt="hello" src={lmao}></img>
+            </div>
             
         </div>)
 }

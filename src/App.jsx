@@ -11,7 +11,7 @@ import Conspiracy from './components/work/show/conspiracy';
 import Cradle from './components/work/show/cradle_to_grave'; 
 import Frankenstein from './components/work/show/frankenstein'; 
 import Illustration from './components/work/show/illustration'; 
-
+import About from './components/about/about'; 
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path="/cradle" component={Cradle}></Route>
         <Route path="/frankenstein" component={Frankenstein}></Route>
         <Route path="/illustration" component={Illustration}></Route>
+        <Route path="/about" component={About}></Route>
         <Work></Work>
       </Switch>
       <Footer></Footer>

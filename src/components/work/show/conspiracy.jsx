@@ -11,7 +11,7 @@ import symbols from '../../../assets/conspiracy/symbols.gif'
 export default function Conspiracy(props) {
    return( 
    <div className="content">
-       <div>
+       <div className="show-caption">
         The task for this assignment in Graphic Design at Wesleyan 
         University was to create a visual identity for an abstract concept. 
         I chose the concept of conspiracy, developing a logo system based on how 
@@ -30,6 +30,22 @@ export default function Conspiracy(props) {
             <img alt="hello" src={howdouuuu}></img>
         </div>
            <div className='show-column'>
+               <img alt="hello" src={cnsprcy}></img>
+           </div>
+
+           <div className='mobile-show-column'>
+               <div>
+                   The task for this assignment in Graphic Design at Wesleyan
+                   University was to create a visual identity for an abstract concept.
+                   I chose the concept of conspiracy, developing a logo system based on how
+                   conspiracies "connect the dots" in astonishing ways.
+                </div>
+               <img alt="hello" src={bannerzz}></img>
+               <img alt="hello" src={brochureinside}></img>
+               <img alt="hello" src={conspiracymoodboard}></img>
+               <img alt="hello" src={conspirbookletsweb}></img>
+               <img alt="hello" src={symbols}></img>
+               <img alt="hello" src={howdouuuu}></img>
                <img alt="hello" src={cnsprcy}></img>
            </div>
     </div>)
