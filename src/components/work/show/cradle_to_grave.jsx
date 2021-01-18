@@ -4,8 +4,9 @@ import brambishinysquare from '../../../assets/cradle/brambishinysquare.jpg';
 import cereal from '../../../assets/cradle/cereal.jpg'; 
 
 
-
 export default function Cradle(props) {
+  
+    
     return (
         <div className="content">
             <div className="show-caption">

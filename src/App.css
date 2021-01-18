@@ -8,7 +8,10 @@
 font-family: sans-serif; 
 }
 
-
+.loading{
+    width: 100%;
+    height: auto;
+}
 
 #thesis {
     color: #ee4724;

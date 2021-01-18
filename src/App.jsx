@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react'; 
+import {useState } from 'react';
 import {Route, Switch} from 'react-router-dom'
 import Header from './components/header/header'
 import Footer from './components/footer'
@@ -12,8 +13,21 @@ import Cradle from './components/work/show/cradle_to_grave';
 import Frankenstein from './components/work/show/frankenstein'; 
 import Illustration from './components/work/show/illustration'; 
 import About from './components/about/about'; 
+import loading from './assets/gif/loading.gif'
 
 function App() {
+  const [loaded, setLoaded] = useState(false);
+  if (loaded === false) {
+    setTimeout(function () {
+      setLoaded(true)
+    }, 2000);
+    return (
+      <div className='content'>
+        <img className="loading" alt="hello" src={loading}></img>
+      </div>
+    )
+  }
+  
   return (
     <div className="App">
      <ComputerHeader/> 
