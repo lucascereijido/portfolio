@@ -1,4 +1,5 @@
 import React from 'react'; 
+import {Link} from 'react-router-dom'; 
 import cradle from '../../assets/gif/cradle.gif'; 
 import conspiracy from '../../assets/gif/conspiracy.gif'; 
 import frankenstein from '../../assets/gif/frankenstein.gif'; 
@@ -15,11 +16,19 @@ export default function Icon(props){
         "ABSALON VISUAL IDENTITY": absalon, 
         "2D ANIMATION": animation 
     }
+    let links = {
+        "CONSPIRACY": '/conspiracy',
+        "CRADLE TO GRAVE": '/cradle',
+        "FRANKENSTEIN": '/frankenstein',
+        "ILLUSTRATION": '/illustration',
+        "ABSALON VISUAL IDENTITY": '/absalon',
+        "2D ANIMATION": '/animation' 
+    }
     return(
-    <div className="image-wrapper">
+    <Link to={links[props.caption]} className="image-wrapper">
         <img alt="hello" src={gifs[props.caption]}></img>
         <div className='caption'>{props.caption}</div>
-    </div>
+    </Link>
     
     )
 }

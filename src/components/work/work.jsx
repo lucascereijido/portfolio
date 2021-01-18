@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from './image'
+
 export default function Work(props) {
     return (
         <div className="content">

@@ -2,12 +2,27 @@
 font-family: sans-serif
 }
 
+a {
+    color: black; 
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 760px) {
     .menu-click{
     cursor: pointer;
     padding: 15px;
     font-size: 20px;
+}
+
+.show-column{
+    display: flex;
+}
+
+.show-column img{
+    width: 100%;
+    height: auto;
+
 }
 
 .computer-menu{
@@ -97,6 +112,30 @@ font-family: sans-serif
 
 
 @media only screen and (min-width: 761px) {
+
+
+.show-column{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+.quarantony{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.quarantony div{
+    padding: 10px;
+}
+
+.show-column img{
+    width: 48%; 
+    height: auto; 
+}
 
  .computer-menu{
      display: flex;

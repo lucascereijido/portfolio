@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react'; 
+import {Link} from 'react-router-dom'; 
+
 export default function ComputerHeader() {
 
     return (
           <div className='computer-menu'>
-            <div className="name">Lucas Cerijido</div>
+            <Link className='name' to="/">Lucas Cerijido</Link> 
             <div className='computer-links'>
                 <a className="name" >WORK</a>
                 <a className="name" >ABOUT</a>
