@@ -1,0 +1,205 @@
+.App{
+font-family: sans-serif
+}
+
+
+@media only screen and (max-width: 760px) {
+    .menu-click{
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.computer-menu{
+    height: 0px;
+    overflow: hidden;
+}
+
+ .hidden-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 5s;
+    
+}
+
+.name{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.dropdown{
+   
+    font-size: 30px;
+    color: #5f5d5d; 
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.column{  
+    padding-top: 40px;
+   display: flex;
+   flex-direction: column; 
+   max-width: 47%;
+}
+
+
+.column img{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    opacity: .5;
+}
+
+.column img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 10px;
+}
+
+.caption{
+    padding: 5px;
+    white-space: nowrap;
+
+}
+
+.menu{
+    cursor: pointer;
+}
+}
+
+
+@media only screen and (min-width: 761px) {
+
+ .computer-menu{
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ .computer-links{
+     display: flex;
+ }
+
+ .computer-links a {
+     color: gray; 
+     font-size: 16px;
+ }
+
+ .computer-links a:hover{
+     color: black;
+     cursor: pointer;
+ }
+ .hidden-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+
+
+.header{
+    height: 0px;
+    overflow: hidden;
+    
+}
+
+.name{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.dropdown{
+   
+    font-size: 30px;
+    color: #5f5d5d; 
+    cursor: pointer;
+}
+.content{
+  
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.column{
+  
+   display: flex;
+   max-width: 100%;
+
+}
+
+
+.column img{
+    
+    width: 100%;
+    height: auto;
+    background-color: white;
+    opacity: .5;
+}
+
+.column img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image-wrapper{
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 10px;
+}
+
+.caption{
+    padding: 5px;
+}
+
+.menu-click{
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+}
+
+
