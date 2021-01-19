@@ -5,7 +5,7 @@ export default function ComputerHeader() {
 
     return (
           <div className='computer-menu'>
-            <Link className='name' to="/">Lucas Cerijido</Link> 
+            <Link className='name' to="/">LUCAS CEREIJIDO</Link> 
             <div className='computer-links'>
                 <div class="dropdown">
                     <button class="dropbtn">WORK</button>

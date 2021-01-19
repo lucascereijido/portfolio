@@ -11,12 +11,12 @@ export default function Header(props) {
                  <div className="name" >WORK</div>
             </div>
             <div className="menu-click" onClick={() => setExposed(!exposed)}>MENU</div>
-            <Link classname="name" to="/">Lucas Cerijido</Link>
+            <Link classname="name" to="/">LUCAS CEREIJIDO</Link>
         </div>
     } else{
         content = <div className="header">
             <div className="menu-click" onClick={() => setExposed(!exposed)}>MENU</div>
-            <Link classname="name" to="/">Lucas Cerijido</Link>
+            <Link classname="name" to="/">LUCAS CEREIJIDO</Link>
         </div>
     }
 

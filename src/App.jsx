@@ -20,7 +20,7 @@ function App() {
   if (loaded === false) {
     setTimeout(function () {
       setLoaded(true)
-    }, 2000);
+    }, 8000);
     return (
       <div className='content'>
         <img className="loading" alt="hello" src={loading}></img>
