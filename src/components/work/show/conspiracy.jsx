@@ -18,20 +18,20 @@ export default function Conspiracy(props) {
         conspiracies "connect the dots" in astonishing ways.
        </div>
         <div className='show-column'>
-            <img alt="hello" src={bannerzz}></img>
+            <img alt="hello" src={cnsprcy}></img>
+            <img alt="hello" src={symbols}></img>
+        </div>
+        <div className='show-column'>
+            <img alt="hello" src={conspirbookletsweb}></img>
             <img alt="hello" src={brochureinside}></img>
         </div>
         <div className='show-column'>
-            <img alt="hello" src={conspiracymoodboard}></img>
-            <img alt="hello" src={conspirbookletsweb}></img>
-        </div>
-        <div className='show-column'>
-            <img alt="hello" src={symbols}></img>
+            <img alt="hello" src={bannerzz}></img>            
             <img alt="hello" src={howdouuuu}></img>
         </div>
-           <div className='show-column'>
-               <img alt="hello" src={cnsprcy}></img>
-           </div>
+        <div className='show-column'>
+            <img alt="hello" src={conspiracymoodboard}></img>
+        </div>
 
            <div className='mobile-show-column'>
                <div>
@@ -40,13 +40,14 @@ export default function Conspiracy(props) {
                    I chose the concept of conspiracy, developing a logo system based on how
                    conspiracies "connect the dots" in astonishing ways.
                 </div>
-               <img alt="hello" src={bannerzz}></img>
-               <img alt="hello" src={brochureinside}></img>
-               <img alt="hello" src={conspiracymoodboard}></img>
-               <img alt="hello" src={conspirbookletsweb}></img>
-               <img alt="hello" src={symbols}></img>
-               <img alt="hello" src={howdouuuu}></img>
                <img alt="hello" src={cnsprcy}></img>
-           </div>
+               <img alt="hello" src={symbols}></img>
+               <img alt="hello" src={conspirbookletsweb}></img>
+               <img alt="hello" src={brochureinside}></img>
+               <img alt="hello" src={bannerzz}></img>
+               <img alt="hello" src={howdouuuu}></img>
+               <img alt="hello" src={conspiracymoodboard}></img>
+               </div>
+         
     </div>)
 }

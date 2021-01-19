@@ -22,23 +22,25 @@ export default function Absalon(props){
              geometry as graphic elements to accompany the logo.</div>
 
         <div className='show-column'>
-            <img alt="hello" src={bottlez}></img>
-            <img alt="hello" src={buzinsz}></img>
-            
-        </div>
-        <div className='show-column'>
-            <img alt="hello" src={disstime2}></img>
-            <img alt="hello" src={dotzhangin}></img>
-           
-        </div>
-           <div className='show-column'>
                <img alt="hello" src={logoabs}></img>
                <img alt="hello" src={disstime1}></img>
-           </div>
-        <div className='show-column'>
-            <img alt="hello" src={malvinhangin}></img>
-            <img alt="hello" src={shirtz2}></img>
         </div>
+        <div className='show-column'>
+               <img alt="hello" src={disstime2}></img>
+               <img alt="hello" src={malvinhangin}></img>
+        </div>
+           <div className='show-column'>
+               <img alt="hello" src={dotzhangin}></img>
+               <img alt="hello" src={shirtz2}></img>
+           </div>
+
+        <div className='show-column'>
+            <img alt="hello" src={buzinsz}></img>
+            <img alt="hello" src={bottlez}></img>
+        </div>
+        
+           
+        
         <div className='mobile-show-column'>
                <div>While studying abroad at DIS in Copenhagen, my final project for Graphic
                Design was to reimagine the visual identity for Absalon, a privately run
@@ -49,14 +51,14 @@ export default function Absalon(props){
                the inspiration for the visual identity I developed. The logo is an A that is meant to resemble
                the arches throughout the church architecture. I also developed six patterns based on the church's
              geometry as graphic elements to accompany the logo.</div>
-               <img alt="hello" src={bottlez}></img>
-               <img alt="hello" src={buzinsz}></img>
-               <img alt="hello" src={disstime2}></img>
-               <img alt="hello" src={dotzhangin}></img>
                <img alt="hello" src={logoabs}></img>
                <img alt="hello" src={disstime1}></img>
+               <img alt="hello" src={disstime2}></img>
                <img alt="hello" src={malvinhangin}></img>
+               <img alt="hello" src={dotzhangin}></img>
                <img alt="hello" src={shirtz2}></img>
+               <img alt="hello" src={buzinsz}></img>
+               <img alt="hello" src={bottlez}></img>
         </div>
     </div>
    )

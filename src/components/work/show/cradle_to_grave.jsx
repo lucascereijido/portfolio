@@ -24,11 +24,11 @@ export default function Cradle(props) {
             <a id='thesis' className ="show-caption" href="https://indd.adobe.com/view/668d2055-9223-49c7-83da-d8738f251813">View Online Thesis Presentation</a>
             <div className='show-column'>
                 <img alt="hello" src={brambiepic}></img>
-                <img alt="hello" src={brambigif}></img>
+                <img alt="hello" src={brambishinysquare}></img>
             </div>
             <div className='show-column'>
-                <img alt="hello" src={brambishinysquare}></img>
                 <img alt="hello" src={cereal}></img>
+                <img alt="hello" src={brambigif}></img>
             </div>
             <div className="mobile-show-column">
                 <div>
@@ -45,9 +45,9 @@ export default function Cradle(props) {
             </div>
                 <a  id='thesis' href="https://indd.adobe.com/view/668d2055-9223-49c7-83da-d8738f251813">View Online Thesis Presentation</a>
                 <img alt="hello" src={brambiepic}></img>
-                <img alt="hello" src={brambigif}></img>
                 <img alt="hello" src={brambishinysquare}></img>
                 <img alt="hello" src={cereal}></img>
+                <img alt="hello" src={brambigif}></img>
             </div>
           
         </div>)

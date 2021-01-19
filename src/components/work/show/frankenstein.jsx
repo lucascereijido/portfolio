@@ -15,8 +15,8 @@ export default function Frankenstein(props) {
                  through a jarring combination of Bodoni and Futura.
             </div>
             <div className='show-column'>
-                <img alt="hello" src={frankenprocessweb}></img>
                 <img alt="hello" src={frankenwebsite}></img>
+                <img alt="hello" src={frankenprocessweb}></img>
             </div>
             <div className="mobile-show-column">
                 <div>
@@ -28,8 +28,8 @@ export default function Frankenstein(props) {
                     texts to tell the story. My book jacket communicates this typographically
                     through a jarring combination of Bodoni and Futura.
                  </div>
-                <img alt="hello" src={frankenprocessweb}></img>
                 <img alt="hello" src={frankenwebsite}></img>
+                <img alt="hello" src={frankenprocessweb}></img>
             </div>
         </div>)
 }
