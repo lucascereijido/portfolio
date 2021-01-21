@@ -30,7 +30,7 @@ export default function Animation(props){
            <div className='mobile-show-column'>
                
                
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/IVxoitrsATg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/IVxoitrsATg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="hello"></iframe>
                    <div className="quaran-caption">QUARAN-TONY details a dull and relatable day in the life of Tony, spirit animal of ~quarantine~</div>
             
                <img alt="hello" src={biking}></img>
