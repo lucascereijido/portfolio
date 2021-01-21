@@ -7,8 +7,7 @@ export default function Header(props) {
     if(exposed){
         content = <div className="header">
             <div className='hidden-menu'>
-                <div className="name" >ABOUT</div>
-                 <div className="name" >WORK</div>
+                <Link classname="menu-click" to="/about">ABOUT</Link> 
             </div>
             <div className="menu-click" onClick={() => setExposed(!exposed)}>MENU</div>
             <Link classname="name" to="/">LUCAS CEREIJIDO</Link>
