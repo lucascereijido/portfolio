@@ -15,17 +15,23 @@ export default function Work(props) {
                 <Image caption="ABSALON VISUAL IDENTITY"></Image>
                 <Image caption="ILLUSTRATION"></Image>
             </div>
+            <div className='mobile-row-alignment'>
+                <div className='mobile-row'>
+                    <Image caption="2D ANIMATION"></Image>
+                    <Image caption="CRADLE TO GRAVE"></Image>
+                </div>
+                <div className='mobile-row'>
+                    <Image caption="FRANKENSTEIN"></Image>
+                    <Image caption="CONSPIRACY"></Image>
+                </div>
+                <div className='mobile-row'>
+                    <Image caption="ABSALON VISUAL IDENTITY"></Image>
+                    <Image caption="ILLUSTRATION"></Image>
+                </div>
 
-            <div className='mobile-column'>
-                <Image caption="2D ANIMATION"></Image>
-                <Image caption="FRANKENSTEIN"></Image>
-                <Image caption="ABSALON VISUAL IDENTITY"></Image>
             </div>
-            <div className='mobile-column'>
-                <Image caption="CRADLE TO GRAVE"></Image>
-                <Image caption="CONSPIRACY"></Image>
-                <Image caption="ILLUSTRATION"></Image>
-            </div>
+            
+           
         </div>
 
     )
