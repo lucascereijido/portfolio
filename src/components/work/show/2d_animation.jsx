@@ -9,8 +9,7 @@ export default function Animation(props){
    return( 
    <div className="content">
            <div className='quarantony'>
-               <iframe title="QUARAN-TONY" width="420" height="315" src="https://www.youtube.com/watch?v=IVxoitrsATg&ab_channel=lucascereijido">
-               </iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/IVxoitrsATg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                <div>QUARAN-TONY details a dull and relatable day in the life of Tony, spirit animal of ~quarantine~</div>
            </div>
        
@@ -29,8 +28,8 @@ export default function Animation(props){
         </div>
            <div className='mobile-show-column'>
                
-               <iframe title= "QUARAN-TONY" src="https://www.youtube.com/watch?v=IVxoitrsATg&ab_channel=lucascereijido">
-                   </iframe>
+               
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/IVxoitrsATg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    <div className="quaran-caption">QUARAN-TONY details a dull and relatable day in the life of Tony, spirit animal of ~quarantine~</div>
             
                <img alt="hello" src={biking}></img>
