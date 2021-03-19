@@ -1,18 +1,19 @@
 import './App.css';
-import React from 'react'; 
-import {useState } from 'react';
-import {Route, Switch} from 'react-router-dom'
+import React from 'react';
+import { useState } from 'react';
+import { Route, Switch } from 'react-router-dom'
 import Header from './components/header/header'
 import Footer from './components/footer'
 import ComputerHeader from './components/header/computerHeader';
 import Work from './components/work/work';
-import Animation from './components/work/show/2d_animation'; 
-import Absalon from './components/work/show/absalon'; 
-import Conspiracy from './components/work/show/conspiracy'; 
-import Cradle from './components/work/show/cradle_to_grave'; 
-import Frankenstein from './components/work/show/frankenstein'; 
-import Illustration from './components/work/show/illustration'; 
-import About from './components/about/about'; 
+import Animation from './components/work/show/2d_animation';
+import Absalon from './components/work/show/absalon';
+import Conspiracy from './components/work/show/conspiracy';
+import Cradle from './components/work/show/cradle_to_grave';
+import Frankenstein from './components/work/show/frankenstein';
+import Illustration from './components/work/show/illustration';
+import Flames from './components/work/show/flames';
+import About from './components/about/about';
 import loading from './assets/gif/loading.gif'
 
 function App() {
@@ -27,10 +28,10 @@ function App() {
       </div>
     )
   }
-  
+
   return (
     <div className="App">
-     <ComputerHeader/> 
+      <ComputerHeader />
       <Header />
       <Switch>
         <Route path="/animation" component={Animation}></Route>
@@ -40,10 +41,11 @@ function App() {
         <Route path="/frankenstein" component={Frankenstein}></Route>
         <Route path="/illustration" component={Illustration}></Route>
         <Route path="/about" component={About}></Route>
+        <Route path="/flames" component={Flames}></Route>
         <Work></Work>
       </Switch>
       <Footer></Footer>
-     
+
     </div>
   );
 }
